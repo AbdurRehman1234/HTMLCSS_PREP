@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>SAAS Assignment</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+<body>
+    <div class="page-layout">
+        <div class="sidebar">
+            <div class="sidebar-top">
+                <button class='btn-v'><i class="fas fa-reply"></i></button>
+                <button><i class="far fa-envelope"></i></button>
+                <button><i class="far fa-cog"></i></button>
+                <button><i class="fas fa-user"></i></button>
+            </div>
+            <div class="sidebar-mid">
+                <div class="img-container">
+                    <img src="./images/ar.jpg" alt="">
+                    <h3>Abdur Rehman</h3>
+                    <p>Admin Manager</p>
+                </div>
+                <div class="stats-container">
+                    <div class="profile-stats">
+                        <button><i class="fas fa-user"></i></button>
+                        <h5>26k+</h5>
+                        <p><b>+14</b></p>
+                    </div>
+                    <div class="sent-stats">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                        <h5>1095</h5>
+                        <p><b>+56</b></p>
+                    </div>
+                    <div class="views-stats">
+                        <button><i class="fas fa-eye"></i></button>
+                        <h5>428</h5>
+                        <p><b>+38</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-menu-items">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="menu-item">
+                                <i class="fas fa-user"></i>
+                                <p>Dashboard</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">UI elements</a>
+                    </li>
+                    <li class="dd-trigger-item">
+                        <a href="###">Sample Pages</a>
+                        <ul class="dropdown-content dropdown-content-visibility">
+                            <li>
+                                <a href="">Calendar</a>
+                            </li>
+                            <li>
+                                <a href="">Image Gallery</a>
+                            </li>
+                            <li>
+                                <a href="">Support Chat</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Messages</a>
+                    </li>
+                    <li>
+                        <a href="#">Forms</a>
+                    </li>
+                    <li>
+                        <a href="#">Grid Layout</a>
+                    </li>
+                    <li>
+                        <a href="#">Tables</a>
+                    </li>
+                    <li>
+                        <a href="#">Statistics</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="sidebar-footer">
+                <h5>glazzed</h5>
+                <p>@2014 Glazzed. All rights</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="header">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="logo">
+                    <h2>glazzed</h2>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="main">
+                <div class="dashboard-stats">
+                    <div class="upper">
+                        <div class="dashboard-nav">
+                            <div class="dashboard-home-icon">
+                                <i class="fal fa-home"></i>
+                            </div>
+                            <div class="nav">
+                                <p>Dashboard</p>
+                                <div class="nav-links">
+                                    <a href="">Home . </a>
+                                    <a href="">Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="days">
+                            <button>Today</button>
+                            <button>Yesterday</button>
+                            <button>Calendar</button>
+                            <button><i class="bi bi-arrow-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <div class="resume">
+                            <p>Resume of the day</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Accusantium reprehenderit ex tenetur amet sit, 
+                                labore aperiam quasi nostrum explicabo optio!</p>
+                        </div>
+                        <div class="numbers">
+                            <div class="chart-container">
+                                <div class="chart1">
+                                   <p>chart1</p>
+                                </div>
+                                <div class="chart2">
+                                   <p>chart2</p>
+                                </div>
+                                <div class="chart3">
+                                   <p>chart3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-container">
+                    <div class="cards_2_wrapper">
+                        <div class="card_2_1">
+                            <div class="c2-topbar">
+                                <div class="topbar-title">
+                                    <i class="fal fa-comments-alt"></i>
+                                    <p>Messages</p>
+                                </div>
+                                <div class="topbar-icons">
+                                    <div class="topbar-icon1 t-icon">
+                                        <i class="bi bi-arrow-clockwise"></i>
+                                    </div>
+                                    <div class="topbar-icon2 t-icon">
+                                        <i class="bi bi-arrow-up"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c21_topbar2">
+                                <button>Latests</button>
+                                <button>Oldest</button>
+                                <button>Favourites</button>
+                            </div>
+                            <div class="messages_container">
+                                <div class="message_1 msg-flex">
+                                    <div class="message-image in-image">
+                                        <img src="./images/bilal.jpg" alt="">
+                                    </div>
+                                    <div class="message-full">
+                                        <div class="message-info">
+                                            <div class="content-flx">
+                                                <p class="username-p">Victoria Campel</p> 
+                                                <span>from twitter / 6 hours ago</span>
+                                            </div>
+                                            <div class="message-content">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                    Maiores, reiciendis?dolor sit amet consectetur adipisicing elit
+                                                </p>
+                                            </div>
+                                            <div class="message-actions">
+                                                <button>Reply</button>
+                                                <button>Favourite</button>
+                                                <button>Delete</button>
+                                                <button><i class="bi bi-arrow-up"></i></button>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="message_2 msg-flex">
+                                    <div class="message-image in-image">
+                                        <img src="./images/ar.jpg" alt="">
+                                    </div>
+                                    <div class="message-full">
+                                        <div class="message-info">
+                                            <div class="content-flx">
+                                                <p class="username-p">Joseph Lewis</p> 
+                                                <span>from twitter / 1 day ago</span>
+                                            </div>
+                                            <div class="message-content">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, reiciendis?</p>
+                                            </div>
+                                            <div class="message-actions">
+                                                <button>Reply</button>
+                                                <button>Favourite</button>
+                                                <button>Delete</button>
+                                                <button><i class="bi bi-arrow-up"></i></button>        
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                                <div class="message_3 msg-flex">
+                                    <div class="message-image in-image">
+                                        <img src="./images/ar.jpg" alt="">
+                                    </div>
+                                    <div class="message-full">
+                                        <div class="message-info">
+                                            <div class="content-flx">
+                                                <p class="username-p">Robert Smith</p> <span>from twitter / 2 day ago</span>
+                                            </div>
+                                            <div class="message-content">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                    Maiores, reiciendis?Lorem ipsum dolor sit amet consectetur adipisicing
+
+                                                </p>
+                                            </div>
+                                            <div class="message-actions">
+                                                <button>Reply</button>
+                                                <button>Favourite</button>
+                                                <button>Delete</button>
+                                                <button><i class="bi bi-arrow-up"></i></button>        
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>                                
+                            </div>
+                            <div class="c21-footer">
+                                <button><i class="bi bi-paperclip"></i></button>
+                                <div class="leave-message">
+                                    <input type="text" placeholder="Leave a Message...">
+                                </div>
+                                <button><i class="bi bi-arrow-up"></i></button>
+                            </div>
+                        </div>
+                        <div class="card_2_2">
+                            <div class="c2-topbar">
+                                <div class="topbar-title">
+                                    <i class="bi bi-person-fill anom"></i>
+                                    <p>Members</p>
+                                </div>
+                                <div class="topbar-icon1 t-icon">
+                                    <i class="bi bi-arrow-clockwise"></i>
+                                </div>
+                                <div class="topbar-icon2 t-icon">
+                                    <i class="fal fa-times"></i>
+                                </div>
+                            </div>
+                            <div class="c22-topbar2">
+                                <div class="total-user">
+                                    <p>Total users <span><b>184,036</b></span></p>
+                                </div>
+                                <button>Sort by <i class="bi bi-arrow-down"></i></button>
+                            </div>
+                            <div class="member-info-container">
+                                <div class="member-info-1">
+                                    <div class="member-upper">
+                                        <div class="member-image-1 in-image">
+                                            <img src="./images/ar.jpg" alt="">
+                                        </div>
+                                        <div class="member-information">
+                                            <div class="member-info-title">
+                                                <div class="member-name">
+                                                    <p class=username-p>Paul Robert Smith</p>
+                                                    <p>location icon Manhattan, United States</p>
+                                                </div>
+                                            </div>
+                                            <div class="member-actions">
+                                                <button class="green-r"><i class="far fa-check"></i></button>
+                                                <button class="circle-r"><i class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info-2">
+                                    <div class="member-upper">
+                                        <div class="member-image-1 in-image">
+                                            <img src="./images/bilal.jpg" alt="">
+                                        </div>
+                                        <div class="member-information">    
+                                            <div class="member-info-title">
+                                                <div class="member-name">
+                                                    <p class=username-p>Paul Robert Smith</p>
+                                                    <p>location icon Manhattan, United States</p>
+                                                </div>
+                                            </div>
+                                            <div class="member-actions">
+                                                <button class="green-r"><i class="far fa-check"></i></button>
+                                                <button class="circle-r"><i class="fal fa-arrow-up"></i></button>
+                                            </div>                                         
+                                        </div>
+                                    </div>
+                                    <div class="member-mid">
+                                        <div class="member-mid-fx-c">
+                                            <div class="email fx">
+                                                <p>Email:</p>
+                                                <input type="text">
+                                            </div>
+                                            <div class="site fx">
+                                                <p>Site:</p>
+                                                <input type="text">
+                                            </div>
+                                            <div class="Company fx">
+                                                <p>Company:</p>
+                                                <input type="text">
+                                            </div>
+                                            <div class="Plan fx">
+                                                <p>Plan:</p>
+                                                <input type="text">
+                                            </div>
+                                            <div class="j-message fx">
+                                                <p>Messages:</p>
+                                                <button>16</button>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>                               
+                                <div class="member-info-3">
+                                    <div class="member-upper">
+                                        <div class="member-image-1 in-image">
+                                            <img src="./images/ar.jpg" alt="">
+                                        </div>
+                                        <div class="member-information">
+                                            <div class="member-info-title">
+                                                <div class="member-name">
+                                                    <p class=username-p>Paul Robert Smith</p>
+                                                    <p>location icon Manhattan, United States</p>
+                                                </div>
+                                            </div>
+                                            <div class="member-actions">
+                                                <button class="green-r"><i class="far fa-check"></i></button>
+                                                <button class="circle-r"><i class="bi bi-plus-lg"></i></button>
+                                            </div> 
+                                        </div> 
+                                    </div>                         
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_3_wrapper grid_typ1">
+                        <div class="card3_1">
+                            <div class="card3_1-topbar c2-topbar">
+                                <div class="alert">
+                                    <p>Alert Messages</p>
+                                </div>
+                                <button><i class="bi bi-arrow-clockwise"></i></button>
+                            </div>
+                            <div class="al-messages-container">
+                                <div class="msg-c">
+                                    <div class="cross">
+                                        <i class="fal fa-times"></i>
+                                    </div>
+                                    <div class="al-msg1 al-msg">
+                                        <i class="far fa-check"></i>
+                                        <p>Success! The page has been...</p>
+                                    </div>
+                                </div>
+                                <div class="msg-c">
+                                    <div class="cross">
+                                        <i class="fal fa-times"></i>
+                                    </div>
+                                    <div class="al-msg2 al-msg">
+                                        <i class="fal fa-exclamation-triangle"></i>
+                                        <p>Warning! Your monthly traffic...</p>
+                                    </div>
+                                </div>
+                                <div class="msg-c">
+                                    <div class="cross">
+                                        <i class="fal fa-times"></i>
+                                    </div>
+                                    <div class="al-msg3 al-msg">
+                                        <i class="fal fa-exclamation-circle"></i>
+                                        <p>Info! you have 24 unread mess...</p>
+                                    </div>
+                                </div>
+                                <div class="msg-c">
+                                    <div class="cross">
+                                        <i class="fal fa-times"></i>
+                                    </div>
+                                    <div class="al-msg4 al-msg">
+                                        <i class="fal fa-times"></i>
+                                        <p>Error! The chart page has...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card3_2">
+                            <div class="card3_1-topbar c2-topbar">
+                                <div class="alert">
+                                    <p>Media Table</p>
+                                </div>
+                                <button><i class="bi bi-arrow-clockwise"></i></button>
+                            </div>
+                            <div class="card3-2-content">
+                                <div class="r1-c1-1">
+                                    <p>Post Description</p>
+                                </div>
+                                <div class="r1-c2-2">
+                                    <p>Date</p>
+                                </div>
+                                <div class="r1-c3-3">
+                                    <p>Post Info</p>
+                                </div>
+                                <div class="r1-c4-4">
+                                    <p>Del</p>
+                                </div>   
+                                <!-- row2-->
+                                <div class="r2-c1-1 r-fx">
+                                    <div class="mt-img">
+                                        <img src="./images/bilal.jpg" alt="">
+                                    </div>
+                                    <div class="c-content">
+                                        <p class="c-title">
+                                            Gravitu Psd B-Cards
+                                        </p>
+                                        <p>A classic approach</p>
+                                        <button>Edit</button>
+                                    </div>
+                                </div>
+                                <div class="r2-c2-2">
+                                    <p class="sm">26 Feb,2014</p>
+                                    <p>15:20</p>
+                                </div>
+                                <div class="r2-c3-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Nisi commodi exercitationem, 
+                                        et ex expedita blanditiis ipsam recusandae consequuntur nobis eaque.
+                                    </p>
+                                </div>
+                                <div class="r2-c4-4">
+                                    <i class="fal fa-times"></i>
+                                </div>
+                                <!-- row3-->
+                                <div class="r3-c1-1 r-fx">
+                                    <div class="mt-img">
+                                        <img src="./images/bilal.jpg" alt="">
+                                    </div>
+                                    <div class="c-content">
+                                        <p class="c-title">
+                                            Gravitu Psd B-Cards
+                                        </p>
+                                        <p>A classic approach</p>
+                                        <button>Edit</button>
+                                    </div>
+                                </div>
+                                <div class="r3-c2-2">
+                                    <p class="sm">26 Feb,2014</p>
+                                    <p>15:20</p>
+                                </div>
+                                <div class="r3-c3-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Nisi commodi exercitationem, 
+                                        et ex expedita blanditiis ipsam recusandae consequuntur nobis eaque.
+                                    </p>
+                                </div>
+                                <div class="r3-c4-4">
+                                    <i class="fal fa-times"></i>
+                                </div>
+                                <!-- row4                                 -->
+                                <div class="r4-c1-1 r-fx">
+                                    <div class="mt-img">
+                                        <img src="./images/bilal.jpg" alt="">
+                                    </div>
+                                    <div class="c-content">
+                                        <p class="c-title">
+                                            Gravitu Psd B-Cards
+                                        </p>
+                                        <p>A classic approach</p>
+                                        <button>Edit</button>
+                                    </div>
+                                </div>
+                                <div class="r4-c2-2">
+                                    <p class="sm">26 Feb,2014</p>
+                                    <p>15:20</p>
+                                </div>
+                                <div class="r4-c3-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Nisi commodi exercitationem, 
+                                        et ex expedita blanditiis ipsam recusandae consequuntur nobis eaque.
+                                    </p>
+                                </div>
+                                <div class="r4-c4-4">
+                                    <i class="fal fa-times"></i>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
